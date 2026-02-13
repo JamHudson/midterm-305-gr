@@ -44,7 +44,7 @@ h1 {
     margin: 0;
     text-align: center;
     text-wrap: nowrap;
-    font-size: min(3rem, max(4vw, 1rem));
+    font-size: min(3rem, max(4vw, 1.35rem));
     color: var(--primary-color);
     letter-spacing: 0.045em;
 }
