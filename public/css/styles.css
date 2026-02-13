@@ -10,6 +10,7 @@
 body {
     background-color: var(--background-color);
     display: flex;
+    flex-direction: column;
     height: 100vh;
     /* This was confusing to figure out */
     margin: 0;
@@ -94,6 +95,14 @@ button:hover {
     background-image: linear-gradient(to right, var(--alt-background-color), var(--background-color));
     cursor: pointer;
     text-decoration: underline;
+}
+
+footer a {
+    color: hsl(0 0% 70);
+}
+
+footer a:hover {
+    color: hsl(0 0% 100);
 }
 
 @media only screen and (min-width: 680px) {
