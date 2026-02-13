@@ -98,11 +98,11 @@ button:hover {
 }
 
 footer a {
-    color: hsl(0 0% 70);
+    color: hsl(0 0% 70%);
 }
 
 footer a:hover {
-    color: hsl(0 0% 100);
+    color: hsl(0 0% 100%);
 }
 
 @media only screen and (min-width: 680px) {
