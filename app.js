@@ -24,8 +24,9 @@ app.get('/', (req,res) => {
     res.sendFile(`${import.meta.dirname}/views/home.html`);
 });
 
-app.post('/', (req, res) => {
+app.post('/submit', (req, res) => {
     // Form submitted
+    res.send("Thank you for your request!")
 });
 
 

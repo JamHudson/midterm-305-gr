@@ -21,6 +21,7 @@
             <!-- Destination -->
             <fieldset>
                 <label for="destination">Destination</label>
+                <span class="err" id="destination-err">A destination must be selected.</span>
                 <select id="destination" name="destination">
                     <option value="none">Choose a destination...</option>
                     <option value="newyork">New York City, USA</option>
@@ -38,6 +39,7 @@
             <!-- Number of Travelers -->
             <fieldset>
                 <label for="travelers">Number of Travelers</label>
+                <span class="err" id="travelers-err">Travelers must be greater than 0.</span>
                 <input type="number" id="travelers" name="travelers">
             </fieldset>
         </form>
