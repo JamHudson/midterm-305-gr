@@ -115,3 +115,9 @@ footer a:hover {
         grid-template: 1fr 1fr/ 1fr 1fr;
     }
 }
+
+@media only screen and (min-height: 400px) {
+    header {
+        padding: 2.5% 2rem;
+    }
+}
